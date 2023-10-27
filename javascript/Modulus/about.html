@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <h1 class="head">About</h1>
+
+    <script type="module">
+        import {greetUser as gt , greetUser2} from './app.js'
+        import abd from './app.js'
+
+        const greet = gt(abd);
+        const head = document.querySelector('.head');
+        head.innerHTML = greet
+
+        console.log(gt(abd));
+    </script> 
+</body>
+</html>
