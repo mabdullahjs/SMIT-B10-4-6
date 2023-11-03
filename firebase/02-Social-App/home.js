@@ -22,3 +22,34 @@ btn.addEventListener('click', () => {
         console.log(error);
     });
 })
+
+
+
+
+const form = document.querySelector('#form')
+const title = document.querySelector('#title')
+const description = document.querySelector('#description')
+
+form.addEventListener('submit' , (event)=>{
+    event.preventDefault();
+    console.log(title.value);
+    console.log(description.value);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
